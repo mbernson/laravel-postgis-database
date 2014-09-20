@@ -1,6 +1,7 @@
 <?php namespace Lamb\LaravelPostgisDatabase;
 
 use Illuminate\Database\Schema\Builder;
+use Closure;
 
 class PostgisBuilder extends Builder {
 
